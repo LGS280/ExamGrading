@@ -1,0 +1,13 @@
+﻿using ExamService.Data.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ExamService.Data.Interfaces
+{
+    public interface IExamRepository : IGenericRepository<Exam>
+    {
+    }
+}
